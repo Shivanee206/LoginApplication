@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.shivani.loginapplication.SignUpActivity">
+   
+        <TextView
+            android:id="@+id/sign_up_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:layout_gravity="center_horizontal"
+            android:textSize="45dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+    <ImageView
+        android:id="@+id/avatarImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/circular_imageview" />
+    <TextView
+        android:id="@+id/textAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textColor="@color/white"
+        android:text="Select your Avatar"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"/>
+       
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal">
+        <EditText
+            android:id="@+id/editUserName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:padding="7dp"
+            android:drawablePadding="10dp"
+            android:hint="@string/user_name"
+            android:inputType="textPersonName"
+            android:background="@drawable/edittxtstyle"
+            android:textColorHint="#ffffff"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@null"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/user"
+            android:typeface="serif"></EditText>
+        <requestFocus />
+            <EditText
+                android:id="@+id/editEmail2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="@string/email"
+                android:padding="7dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/mail"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:textCursorDrawable="@null"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittxtstyle"
+                android:typeface="serif"></EditText>
+            <requestFocus />
+            <EditText
+                android:id="@+id/editPassword2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:padding="7dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/lock"
+                android:hint="@string/password"
+                android:inputType="numberPassword|textPassword"
+                android:password="true"
+                android:textColorHint="#ffffff"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@null"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittxtstyle"
+                android:typeface="serif"></EditText>
+            <requestFocus />
+        <EditText
+            android:id="@+id/editContact"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:padding="7dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/phone"
+            android:hint="@string/contact"
+            android:inputType="number"
+            android:textColorHint="#ffffff"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@null"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittxtstyle"
+            android:typeface="serif"></EditText>
+        <requestFocus />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/terms_conditions"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:buttonTint="@color/white"
+            android:padding="2dp"
+            android:gravity="center_horizontal"
+            android:typeface="serif"/>
+
+        <Button
+            android:id="@+id/createAccountBtn"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text="@string/create_account"
+            android:background="@drawable/button_style"
+            android:elevation="12dp"
+            android:textAllCaps="false"
+            android:clickable="true"
+            android:typeface="serif" />
+    </LinearLayout>
+
+</LinearLayout>

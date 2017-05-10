@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LoginApplication</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_member">Already our Member? Sign In</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="contact">Contact Number</string>
+    <string name="or">or Login with</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="facebook_app_id">1156100574535257</string>
+    <string name="opendrawer">Open Drawer</string>
+    <string name="closedrawer">Close Drawer</string>
+    <string name="terms_conditions">By proceeding, you agree to the Privacy Policy and Terms of Service.</string>
+    <string-array name="nav_item_activity_titles">
+        <item>User</item>
+        <item>Settings</item>
+        <item>Log Out</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
